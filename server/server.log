@@ -1,0 +1,22 @@
+[ INF 12-06-2022 02:00:54 ]	Starting server
+[ INF 12-06-2022 02:00:54 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 12-06-2022 02:00:54 ]	Create server socket
+[ INF 12-06-2022 02:00:54 ]	Port -> 8888
+[ INF 12-06-2022 02:00:54 ]	IP -> 0.0.0.0
+[ INF 12-06-2022 02:00:54 ]	Bind server socket
+[ INF 12-06-2022 02:00:54 ]	Start listening
+[ INF 12-06-2022 02:00:54 ]	Waiting for connections...

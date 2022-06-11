@@ -4,6 +4,8 @@
 #include <pthread.h> 
 #include <map>
 
+typedef void* (*pthread_func_t)(void*);
+
 class server{
 private:
     struct sockaddr_in server_addr;
@@ -15,10 +17,17 @@ private:
     int type;
     int port;
 
+    std::string address;
+    int max_connections;
+
+    pthread_func_t handler;
+
     void create_socket();
     void bind();
     void listen();
     void accept();
+
+    static void* default_handler(void* data);
 
 public:
     server();
@@ -31,8 +40,12 @@ public:
     void set_type(int type);
     void set_port(int port);
 
+    void set_max_connections(int max_connections);
+    void set_address(const std::string& address);
+
+    void set_access_func(pthread_func_t function);
+
     void start();
     void stop();
 };
-
 #endif
