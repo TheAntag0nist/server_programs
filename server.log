@@ -1,0 +1,15 @@
+[ INF 12-06-2022 00:16:47 ]	Starting server
+[ INF 12-06-2022 00:16:47 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 3000
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 12-06-2022 00:16:47 ]	Close server
