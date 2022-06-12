@@ -1,0 +1,103 @@
+[ INF 12-06-2022 11:31:41 ]	Starting client
+[ INF 12-06-2022 11:31:41 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 12-06-2022 11:31:41 ]	Start client
+[ INF 12-06-2022 11:31:41 ]	Create socket
+[ INF 12-06-2022 11:31:41 ]	Create connection to server
+[ INF 12-06-2022 11:31:41 ]	Create thread for display answers from server
+[ INF 12-06-2022 11:31:41 ]	Waiting for commands
+[ INF 12-06-2022 11:34:03 ]	Starting client
+[ INF 12-06-2022 11:34:03 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 12-06-2022 11:34:03 ]	Start client
+[ INF 12-06-2022 11:34:03 ]	Create socket
+[ INF 12-06-2022 11:34:03 ]	Create connection to server
+[ INF 12-06-2022 11:34:03 ]	Create thread for display answers from server
+[ INF 12-06-2022 11:34:03 ]	Waiting for commands
+[ INF 12-06-2022 11:34:35 ]	Successfully exit and disconnected
+[ INF 12-06-2022 11:34:35 ]	Stopping client
+[ INF 12-06-2022 11:34:35 ]	Close client
+[ INF 12-06-2022 11:34:54 ]	Starting client
+[ INF 12-06-2022 11:34:54 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 12-06-2022 11:34:54 ]	Start client
+[ INF 12-06-2022 11:34:54 ]	Create socket
+[ INF 12-06-2022 11:34:54 ]	Create connection to server
+[ INF 12-06-2022 11:34:54 ]	Create thread for display answers from server
+[ INF 12-06-2022 11:34:54 ]	Waiting for commands
+[ INF 12-06-2022 11:38:12 ]	Starting client
+[ INF 12-06-2022 11:38:12 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 12-06-2022 11:38:12 ]	Start client
+[ INF 12-06-2022 11:38:12 ]	Create socket
+[ INF 12-06-2022 11:38:12 ]	Create connection to server
+[ INF 12-06-2022 11:38:12 ]	Create thread for display answers from server
+[ INF 12-06-2022 11:38:12 ]	Waiting for commands
+[ INF 12-06-2022 11:39:09 ]	Starting client
+[ INF 12-06-2022 11:39:09 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 12-06-2022 11:39:09 ]	Start client
+[ INF 12-06-2022 11:39:09 ]	Create socket
+[ INF 12-06-2022 11:39:09 ]	Create connection to server
+[ INF 12-06-2022 11:39:09 ]	Create thread for display answers from server
+[ INF 12-06-2022 11:39:09 ]	Waiting for commands
+[ INF 12-06-2022 11:39:13 ]	test
+[ INF 12-06-2022 11:39:26 ]	msgt
+[ INF 12-06-2022 11:39:30 ]	Successfully exit and disconnected
+[ INF 12-06-2022 11:39:30 ]	Stopping client
+[ INF 12-06-2022 11:39:30 ]	Close client

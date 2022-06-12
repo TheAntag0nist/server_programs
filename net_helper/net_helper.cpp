@@ -54,7 +54,7 @@ int get_uuid(int& prev_id){
     return prev_id + rand() % 9999 + 1;
 }
 
-int get_domain(std::string& domain){
+int get_domain(const std::string& domain){
     if(domain == "IPv4")
         return IPv4;
     if(domain == "IPv6")
@@ -63,7 +63,7 @@ int get_domain(std::string& domain){
     return -1;
 }
 
-int get_type(std::string& type){
+int get_type(const std::string& type){
     if(type == "TCP")
         return TCP;
     if(type == "UDP")

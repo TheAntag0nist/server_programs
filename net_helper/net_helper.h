@@ -21,9 +21,9 @@ void send_to_server(int h_socket, char* buf, size_t len);
 void recv_from_server(int h_socket, void* buf, size_t len);
 
 // get unique user id
-int get_uuid();
+int get_uuid(int& prev_id);
 
 // helpers for getting data from config file
-int get_domain(std::string& domain);
-int get_type(std::string& type);
+int get_domain(const std::string& domain);
+int get_type(const std::string& type);
 #endif

@@ -1,0 +1,19 @@
+{
+    "logger_config": {
+        "log_file": "client.log"
+    },
+    "client_config": {
+        "domain": "IPv4",
+        "type": "TCP",
+        "protocol": 0,
+        "port": 8888,
+        "server_ip": "127.0.0.1",
+        "access_token": "0",
+        "username": "testuser"
+    },
+    "app_config": {
+        "app_name": "Test Client",
+        "code_name": "alpha",
+        "version": "0.0.3"
+    }
+}
