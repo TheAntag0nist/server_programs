@@ -1,3 +1,6 @@
+# Ignore test folder
+/test/
+
 # Prerequisites
 *.d
 
