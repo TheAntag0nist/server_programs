@@ -152,3 +152,33 @@ Application configuration:
 [ INF 12-06-2022 11:39:26 ]	Receive message from client
 [ INF 12-06-2022 11:39:26 ]	Msg -> msgt
 [ INF 12-06-2022 11:39:30 ]	Client disconnected
+[ INF 15-06-2022 20:17:14 ]	Starting server
+[ INF 15-06-2022 20:17:14 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 15-06-2022 20:17:14 ]	Create server socket
+[ INF 15-06-2022 20:17:14 ]	Port -> 8888
+[ INF 15-06-2022 20:17:14 ]	IP -> 0.0.0.0
+[ INF 15-06-2022 20:17:14 ]	Bind server socket
+[ INF 15-06-2022 20:17:14 ]	Start listening
+[ INF 15-06-2022 20:17:14 ]	Waiting for connections...
+[ INF 15-06-2022 20:17:20 ]	Accepting connection...
+[ INF 15-06-2022 20:17:20 ]	Successfully created connection thread
+[ INF 15-06-2022 20:17:20 ]	Thread is working
+[ INF 15-06-2022 20:17:29 ]	Receive message from client
+[ INF 15-06-2022 20:17:29 ]	Msg -> testMessage
+[ INF 15-06-2022 20:17:41 ]	Receive message from client
+[ INF 15-06-2022 20:17:41 ]	Msg -> testMessage
+[ INF 15-06-2022 20:17:47 ]	Client disconnected

@@ -101,3 +101,27 @@ Application configuration:
 [ INF 12-06-2022 11:39:30 ]	Successfully exit and disconnected
 [ INF 12-06-2022 11:39:30 ]	Stopping client
 [ INF 12-06-2022 11:39:30 ]	Close client
+[ INF 15-06-2022 20:17:20 ]	Starting client
+[ INF 15-06-2022 20:17:20 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: client.log
+Client configuration: 
+	Access Token: 0
+	UserName: testuser
+	server IP: 127.0.0.1
+	Port: 8888
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Client
+	Version: 0.0.3
+
+[ INF 15-06-2022 20:17:20 ]	Start client
+[ INF 15-06-2022 20:17:20 ]	Create socket
+[ INF 15-06-2022 20:17:20 ]	Create connection to server
+[ INF 15-06-2022 20:17:20 ]	Create thread for display answers from server
+[ INF 15-06-2022 20:17:20 ]	Waiting for commands
+[ INF 15-06-2022 20:17:29 ]	testMessage
+[ INF 15-06-2022 20:17:41 ]	testMessage
+[ INF 15-06-2022 20:17:47 ]	Successfully exit and disconnected
+[ INF 15-06-2022 20:17:47 ]	Stopping client
+[ INF 15-06-2022 20:17:47 ]	Close client
