@@ -35,8 +35,6 @@ int package::clear_package(){
         package_data = nullptr;
         package_cnt = 0;
     }
-    else
-        throw std::runtime_error("package::clear_package that already empty");
 
     return 0;
 }

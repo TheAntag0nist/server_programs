@@ -43,11 +43,13 @@ void send_to_server(int h_socket, char* buf, size_t len){
     return;
 }
 
-void recv_from_server(int h_socket, void* buf, size_t len){
+int recv_from_server(int h_socket, void* buf, size_t len){
     int result = recv(h_socket, buf, len, 0);
+    if(result == 0)
+        logger::fatal("Disconnected from server (ERROR 5xx)");
     if(result == -1)
-        logger::error("Can't recv from server");
-    return;
+        logger::error("Can't recv from server (ERROR 4xx)");
+    return result;
 }
 
 int get_uuid(int& prev_id){
