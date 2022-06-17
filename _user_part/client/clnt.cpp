@@ -30,6 +30,7 @@ void* client::on_recieve(void* data){
     char* buffer = new char[1024];
     while(true){
         recv_from_server(h_socket, buffer, 1024);
+        std::cout << std::endl; 
         logger::info(buffer);
     }
 
@@ -54,7 +55,6 @@ void client::main(){
     while(true){
         std::cout << "client:> ";
         std::cin >> command;
-        std::cout << std::endl;
 
         if(command == "-exit"){
             logger::info("Successfully exit and disconnected");
@@ -63,10 +63,18 @@ void client::main(){
 
         if(command == "-send"){
             std::cout << "Enter message to send -> ";
-            std::cin >> command;
-            send_to_server(h_client_socket, (char*) command.c_str(), command.size());
+            std::cin >> client_package;
+            if(!client_package.is_empty()){
+                for(int j = 0; j < client_package.get_package_cnt(); ++j){
+                    std::string send_dto = client_package.get_package_data(j);
+                    send_to_server(h_client_socket, (char*) send_dto.c_str(), send_dto.size());
+                }
+            }
             command = "";
-        }       
+            continue;
+        }    
+
+        logger::error("error: incorrect command");   
     }
 }
 ////////////////////////////////////////////////////////////////

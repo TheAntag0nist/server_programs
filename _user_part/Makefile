@@ -1,6 +1,6 @@
 CFLAGS = -std=c++14 -O2 -pthread -Wall
 
-MAIN_FILES = client.cpp ./client/clnt.cpp ../net_helper/net_helper.cpp
+MAIN_FILES = client.cpp ./client/clnt.cpp ../net_helper/net_helper.cpp ../package/package.cpp
 LOGGER = ../log/logger.cpp
 APP_NAME = client_app
 

@@ -1,6 +1,7 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 #include "../../net_helper/net_helper.h"
+#include "../../package/package.h"
 #include <pthread.h> 
 
 class client{
@@ -11,7 +12,8 @@ private:
     int protocol;
     int domain;
     int type;
-    
+
+    package client_package;
     pthread_t server_answers_thread;
     std::string server_ip;
     int port;

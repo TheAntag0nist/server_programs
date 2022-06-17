@@ -182,3 +182,843 @@ Application configuration:
 [ INF 15-06-2022 20:17:41 ]	Receive message from client
 [ INF 15-06-2022 20:17:41 ]	Msg -> testMessage
 [ INF 15-06-2022 20:17:47 ]	Client disconnected
+[ INF 18-06-2022 00:07:41 ]	Starting server
+[ INF 18-06-2022 00:07:41 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:07:41 ]	Create server socket
+[ INF 18-06-2022 00:07:41 ]	Port -> 8888
+[ INF 18-06-2022 00:07:41 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:07:41 ]	Bind server socket
+[ INF 18-06-2022 00:07:41 ]	Start listening
+[ INF 18-06-2022 00:07:41 ]	Waiting for connections...
+[ INF 18-06-2022 00:08:04 ]	Starting server
+[ INF 18-06-2022 00:08:04 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:08:04 ]	Create server socket
+[ INF 18-06-2022 00:08:04 ]	Port -> 8888
+[ INF 18-06-2022 00:08:04 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:08:04 ]	Bind server socket
+[ INF 18-06-2022 00:08:04 ]	Start listening
+[ INF 18-06-2022 00:08:04 ]	Waiting for connections...
+[ INF 18-06-2022 00:08:05 ]	Accepting connection...
+[ INF [ INF 18-06-2022 00:08:05 ]	Thread is working
+
+[ INF 18-06-2022 00:08:35 ]	Receive message from client
+[ INF 18-06-2022 00:08:35 ]	Msg -> L
+[ INF 18-06-2022 00:10:44 ]	Receive message from client
+[ INF 18-06-2022 00:10:44 ]	Msg -> 
+[ INF 18-06-2022 00:11:07 ]	Client disconnected
+[ INF 18-06-2022 00:11:39 ]	Starting server
+[ INF 18-06-2022 00:11:39 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:11:39 ]	Create server socket
+[ INF 18-06-2022 00:11:39 ]	Port -> 8888
+[ INF 18-06-2022 00:11:39 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:11:39 ]	Bind server socket
+[ INF 18-06-2022 00:11:39 ]	Start listening
+[ INF 18-06-2022 00:11:39 ]	Waiting for connections...
+[ INF 18-06-2022 00:11:40 ]	Accepting connection...
+[ INF 18-06-2022 00:11:40 ]	Successfully created connection thread
+[ INF 18-06-2022 00:11:40 ]	Thread is working
+[ INF 18-06-2022 00:11:44 ]	Client disconnected
+[ INF 18-06-2022 00:11:49 ]	Starting server
+[ INF 18-06-2022 00:11:49 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:11:49 ]	Create server socket
+[ INF 18-06-2022 00:11:49 ]	Port -> 8888
+[ INF 18-06-2022 00:11:49 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:11:49 ]	Bind server socket
+[ FTL 18-06-2022 00:11:49 ]	Can't bind socket
+[ INF 18-06-2022 00:11:50 ]	Accepting connection...
+[ INF [ INF 18-06-2022 00:11:50 ]	Successfully created connection thread18-06-2022 00:11:50 ]	Thread is working
+[ INF [ INF 18-06-2022 00:11:50 ]	Successfully created connection thread18-06-2022 00:11:50 ]	Thread is working
+
+[ INF 18-06-2022 00:11:58 ]	Client disconnected
+[ INF 18-06-2022 00:14:10 ]	Starting server
+[ INF 18-06-2022 00:14:10 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:14:10 ]	Create server socket
+[ INF 18-06-2022 00:14:10 ]	Port -> 8888
+[ INF 18-06-2022 00:14:10 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:14:10 ]	Bind server socket
+[ INF 18-06-2022 00:14:10 ]	Start listening
+[ INF 18-06-2022 00:14:10 ]	Waiting for connections...
+[ INF 18-06-2022 00:14:11 ]	Accepting connection...
+[ INF 18-06-2022 00:14:11 ]	Successfully created connection thread
+[ INF 18-06-2022 00:14:11 ]	Thread is working
+[ INF 18-06-2022 00:14:22 ]	Client disconnected
+[ INF 18-06-2022 00:17:30 ]	Starting server
+[ INF 18-06-2022 00:17:30 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:17:30 ]	Create server socket
+[ INF 18-06-2022 00:17:30 ]	Port -> 8888
+[ INF 18-06-2022 00:17:30 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:17:30 ]	Bind server socket
+[ INF 18-06-2022 00:17:30 ]	Start listening
+[ INF 18-06-2022 00:17:30 ]	Waiting for connections...
+[ INF 18-06-2022 00:17:31 ]	Accepting connection...
+[ INF 18-06-2022 00:17:31 ]	Successfully created connection thread
+[ INF 18-06-2022 00:17:31 ]	Thread is working
+[ INF 18-06-2022 00:17:47 ]	Receive message from client
+[ INF 18-06-2022 00:17:47 ]	Msg ->     L
+[ INF 18-06-2022 00:19:10 ]	Starting server
+[ INF 18-06-2022 00:19:10 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:19:10 ]	Create server socket
+[ INF 18-06-2022 00:19:10 ]	Port -> 8888
+[ INF 18-06-2022 00:19:10 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:19:10 ]	Bind server socket
+[ FTL 18-06-2022 00:19:10 ]	Can't bind socket
+[ INF 18-06-2022 00:19:15 ]	Starting server
+[ INF 18-06-2022 00:19:15 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:19:15 ]	Create server socket
+[ INF 18-06-2022 00:19:15 ]	Port -> 8888
+[ INF 18-06-2022 00:19:15 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:19:15 ]	Bind server socket
+[ FTL 18-06-2022 00:19:15 ]	Can't bind socket
+[ INF 18-06-2022 00:19:52 ]	Starting server
+[ INF 18-06-2022 00:19:52 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:19:52 ]	Create server socket
+[ INF 18-06-2022 00:19:52 ]	Port -> 8888
+[ INF 18-06-2022 00:19:52 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:19:52 ]	Bind server socket
+[ INF 18-06-2022 00:19:52 ]	Start listening
+[ INF 18-06-2022 00:19:52 ]	Waiting for connections...
+[ INF 18-06-2022 00:19:54 ]	Accepting connection...
+[ INF 18-06-2022 00:19:54 ]	Successfully created connection thread
+[ INF 18-06-2022 00:19:54 ]	Thread is working
+[ INF 18-06-2022 00:20:06 ]	Receive message from client
+[ INF 18-06-2022 00:20:06 ]	Msg ->     L
+[ INF 18-06-2022 00:20:35 ]	Receive message from client
+[ INF 18-06-2022 00:20:35 ]	Msg ->     L
+[ INF 18-06-2022 00:20:58 ]	Client disconnected
+[ INF 18-06-2022 00:21:18 ]	Starting server
+[ INF 18-06-2022 00:21:18 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:21:18 ]	Create server socket
+[ INF 18-06-2022 00:21:18 ]	Port -> 8888
+[ INF 18-06-2022 00:21:18 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:21:18 ]	Bind server socket
+[ INF 18-06-2022 00:21:18 ]	Start listening
+[ INF 18-06-2022 00:21:18 ]	Waiting for connections...
+[ INF 18-06-2022 00:21:19 ]	Accepting connection...
+[ INF 18-06-2022 00:21:19 ]	Successfully created connection thread
+[ INF 18-06-2022 00:21:19 ]	Thread is working
+[ INF 18-06-2022 00:21:30 ]	Receive message from client
+[ INF 18-06-2022 00:21:30 ]	Msg ->     L
+[ INF 18-06-2022 00:21:43 ]	Client disconnected
+[ INF 18-06-2022 00:24:10 ]	Starting server
+[ INF 18-06-2022 00:24:10 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:24:10 ]	Create server socket
+[ INF 18-06-2022 00:24:10 ]	Port -> 8888
+[ INF 18-06-2022 00:24:10 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:24:10 ]	Bind server socket
+[ INF 18-06-2022 00:24:10 ]	Start listening
+[ INF 18-06-2022 00:24:10 ]	Waiting for connections...
+[ INF 18-06-2022 00:24:11 ]	Accepting connection...
+[ INF 18-06-2022 00:24:11 ]	Successfully created connection thread
+[ INF 18-06-2022 00:24:11 ]	Thread is working
+[ INF 18-06-2022 00:24:18 ]	Receive message from client
+[ INF 18-06-2022 00:24:18 ]	Msg ->     L
+[ INF 18-06-2022 00:24:44 ]	Client disconnected
+[ INF 18-06-2022 00:28:59 ]	Starting server
+[ INF 18-06-2022 00:28:59 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:28:59 ]	Create server socket
+[ INF 18-06-2022 00:28:59 ]	Port -> 8888
+[ INF 18-06-2022 00:28:59 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:28:59 ]	Bind server socket
+[ INF 18-06-2022 00:28:59 ]	Start listening
+[ INF 18-06-2022 00:28:59 ]	Waiting for connections...
+[ INF 18-06-2022 00:29:00 ]	Accepting connection...
+[ INF 18-06-2022 00:29:00 ]	Successfully created connection thread
+[ INF 18-06-2022 00:29:00 ]	Thread is working
+[ INF 18-06-2022 00:29:08 ]	Receive message from client
+[ INF 18-06-2022 00:29:08 ]	Msg ->     L
+[ INF 18-06-2022 00:29:29 ]	Client disconnected
+[ INF 18-06-2022 00:30:07 ]	Starting server
+[ INF 18-06-2022 00:30:07 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:30:07 ]	Create server socket
+[ INF 18-06-2022 00:30:07 ]	Port -> 8888
+[ INF 18-06-2022 00:30:07 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:30:07 ]	Bind server socket
+[ INF 18-06-2022 00:30:07 ]	Start listening
+[ INF 18-06-2022 00:30:07 ]	Waiting for connections...
+[ INF 18-06-2022 00:30:09 ]	Accepting connection...
+[ INF 18-06-2022 00:30:09 ]	Successfully created connection thread
+[ INF 18-06-2022 00:30:09 ]	Thread is working
+[ INF 18-06-2022 00:30:36 ]	Client disconnected
+[ INF 18-06-2022 00:30:52 ]	Starting server
+[ INF 18-06-2022 00:30:52 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:30:52 ]	Create server socket
+[ INF 18-06-2022 00:30:52 ]	Port -> 8888
+[ INF 18-06-2022 00:30:52 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:30:52 ]	Bind server socket
+[ INF 18-06-2022 00:30:52 ]	Start listening
+[ INF 18-06-2022 00:30:52 ]	Waiting for connections...
+[ INF 18-06-2022 00:30:53 ]	Accepting connection...
+[ INF 18-06-2022 00:30:53 ]	Successfully created connection thread
+[ INF 18-06-2022 00:30:53 ]	Thread is working
+[ INF 18-06-2022 00:31:04 ]	Client disconnected
+[ INF 18-06-2022 00:31:10 ]	Starting server
+[ INF 18-06-2022 00:31:10 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:31:10 ]	Create server socket
+[ INF 18-06-2022 00:31:10 ]	Port -> 8888
+[ INF 18-06-2022 00:31:10 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:31:10 ]	Bind server socket
+[ INF 18-06-2022 00:31:10 ]	Start listening
+[ INF 18-06-2022 00:31:10 ]	Waiting for connections...
+[ INF 18-06-2022 00:31:11 ]	Accepting connection...
+[ INF 18-06-2022 00:31:11 ]	Successfully created connection thread
+[ INF 18-06-2022 00:31:11 ]	Thread is working
+[ INF 18-06-2022 00:31:14 ]	Client disconnected
+[ INF 18-06-2022 00:32:13 ]	Starting server
+[ INF 18-06-2022 00:32:13 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:32:13 ]	Create server socket
+[ INF 18-06-2022 00:32:13 ]	Port -> 8888
+[ INF 18-06-2022 00:32:13 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:32:13 ]	Bind server socket
+[ INF 18-06-2022 00:32:13 ]	Start listening
+[ INF 18-06-2022 00:32:13 ]	Waiting for connections...
+[ INF 18-06-2022 00:32:14 ]	Accepting connection...
+[ INF 18-06-2022 00:32:14 ]	Successfully created connection thread
+[ INF 18-06-2022 00:32:14 ]	Thread is working
+[ INF 18-06-2022 00:32:22 ]	Receive message from client
+[ INF 18-06-2022 00:32:22 ]	Msg -> (curr
+[ INF 18-06-2022 00:33:55 ]	Starting server
+[ INF 18-06-2022 00:33:55 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:33:55 ]	Create server socket
+[ INF 18-06-2022 00:33:55 ]	Port -> 8888
+[ INF 18-06-2022 00:33:55 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:33:55 ]	Bind server socket
+[ FTL 18-06-2022 00:33:55 ]	Can't bind socket
+[ INF 18-06-2022 00:34:04 ]	Starting server
+[ INF 18-06-2022 00:34:04 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:04 ]	Create server socket
+[ INF 18-06-2022 00:34:04 ]	Port -> 8888
+[ INF 18-06-2022 00:34:04 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:04 ]	Bind server socket
+[ FTL 18-06-2022 00:34:04 ]	Can't bind socket
+[ INF 18-06-2022 00:34:07 ]	Starting server
+[ INF 18-06-2022 00:34:07 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:07 ]	Create server socket
+[ INF 18-06-2022 00:34:07 ]	Port -> 8888
+[ INF 18-06-2022 00:34:07 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:07 ]	Bind server socket
+[ FTL 18-06-2022 00:34:07 ]	Can't bind socket
+[ INF 18-06-2022 00:34:14 ]	Starting server
+[ INF 18-06-2022 00:34:14 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:14 ]	Create server socket
+[ INF 18-06-2022 00:34:14 ]	Port -> 8888
+[ INF 18-06-2022 00:34:14 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:14 ]	Bind server socket
+[ FTL 18-06-2022 00:34:14 ]	Can't bind socket
+[ INF 18-06-2022 00:34:23 ]	Starting server
+[ INF 18-06-2022 00:34:23 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:23 ]	Create server socket
+[ INF 18-06-2022 00:34:23 ]	Port -> 8888
+[ INF 18-06-2022 00:34:23 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:23 ]	Bind server socket
+[ FTL 18-06-2022 00:34:23 ]	Can't bind socket
+[ INF 18-06-2022 00:34:26 ]	Starting server
+[ INF 18-06-2022 00:34:26 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:26 ]	Create server socket
+[ INF 18-06-2022 00:34:26 ]	Port -> 8888
+[ INF 18-06-2022 00:34:26 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:26 ]	Bind server socket
+[ FTL 18-06-2022 00:34:26 ]	Can't bind socket
+[ INF 18-06-2022 00:34:29 ]	Starting server
+[ INF 18-06-2022 00:34:29 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:29 ]	Create server socket
+[ INF 18-06-2022 00:34:29 ]	Port -> 8888
+[ INF 18-06-2022 00:34:29 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:29 ]	Bind server socket
+[ FTL 18-06-2022 00:34:29 ]	Can't bind socket
+[ INF 18-06-2022 00:34:43 ]	Starting server
+[ INF 18-06-2022 00:34:43 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:34:43 ]	Create server socket
+[ INF 18-06-2022 00:34:43 ]	Port -> 8888
+[ INF 18-06-2022 00:34:43 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:34:43 ]	Bind server socket
+[ INF 18-06-2022 00:34:43 ]	Start listening
+[ INF 18-06-2022 00:34:43 ]	Waiting for connections...
+[ INF 18-06-2022 00:34:45 ]	Accepting connection...
+[ INF 18-06-2022 00:34:45 ]	Successfully created connection thread
+[ INF 18-06-2022 00:34:45 ]	Thread is working
+[ INF 18-06-2022 00:34:50 ]	Client disconnected
+[ INF 18-06-2022 00:36:06 ]	Accepting connection...
+[ INF [ INF 18-06-2022 00:36:06 ]	Successfully created connection thread
+[ INF [ INF 18-06-2022 00:36:06 ]	Successfully created connection thread
+18-06-2022 00:36:06 ]	Thread is working
+[ INF [ INF 18-06-2022 00:36:06 ]	Successfully created connection thread
+18-06-2022 00:36:06 ]	Thread is working
+[ INF 18-06-2022 00:36:10 ]	Receive message from client
+[ INF 18-06-2022 00:36:10 ]	Msg -> 
+[ INF 18-06-2022 00:38:08 ]	Client disconnected
+[ INF 18-06-2022 00:38:21 ]	Starting server
+[ INF 18-06-2022 00:38:21 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:38:21 ]	Create server socket
+[ INF 18-06-2022 00:38:21 ]	Port -> 8888
+[ INF 18-06-2022 00:38:21 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:38:21 ]	Bind server socket
+[ INF 18-06-2022 00:38:21 ]	Start listening
+[ INF 18-06-2022 00:38:21 ]	Waiting for connections...
+[ INF 18-06-2022 00:38:22 ]	Accepting connection...
+[ INF 18-06-2022 00:38:22 ]	Successfully created connection thread
+[ INF 18-06-2022 00:38:22 ]	Thread is working
+[ INF 18-06-2022 00:38:27 ]	Receive message from client
+[ INF 18-06-2022 00:38:27 ]	Msg -> PACKA
+[ INF 18-06-2022 00:50:42 ]	Client disconnected
+[ INF 18-06-2022 00:53:22 ]	Starting server
+[ INF 18-06-2022 00:53:22 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:53:22 ]	Create server socket
+[ INF 18-06-2022 00:53:22 ]	Port -> 8888
+[ INF 18-06-2022 00:53:22 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:53:22 ]	Bind server socket
+[ INF 18-06-2022 00:53:22 ]	Start listening
+[ INF 18-06-2022 00:53:22 ]	Waiting for connections...
+[ INF 18-06-2022 00:53:23 ]	Accepting connection...
+[ INF 18-06-2022 00:53:23 ]	Successfully created connection thread
+[ INF 18-06-2022 00:53:23 ]	Thread is working
+[ INF 18-06-2022 00:53:30 ]	Receive message from client
+[ INF 18-06-2022 00:53:30 ]	Msg -> test 
+[ INF 18-06-2022 00:54:40 ]	Client disconnected
+[ INF 18-06-2022 00:55:00 ]	Starting server
+[ INF 18-06-2022 00:55:00 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:55:00 ]	Create server socket
+[ INF 18-06-2022 00:55:00 ]	Port -> 8888
+[ INF 18-06-2022 00:55:00 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:55:00 ]	Bind server socket
+[ INF 18-06-2022 00:55:00 ]	Start listening
+[ INF 18-06-2022 00:55:00 ]	Waiting for connections...
+[ INF 18-06-2022 00:55:01 ]	Accepting connection...
+[ INF 18-06-2022 00:55:01 ]	Successfully created connection thread
+[ INF 18-06-2022 00:55:01 ]	Thread is working
+[ INF 18-06-2022 00:55:05 ]	Receive message from client
+[ INF 18-06-2022 00:55:05 ]	Msg -> test
+[ INF 18-06-2022 00:55:09 ]	Client disconnected
+[ INF 18-06-2022 00:55:43 ]	Starting server
+[ INF 18-06-2022 00:55:43 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:55:43 ]	Create server socket
+[ INF 18-06-2022 00:55:43 ]	Port -> 8888
+[ INF 18-06-2022 00:55:43 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:55:43 ]	Bind server socket
+[ INF 18-06-2022 00:55:43 ]	Start listening
+[ INF 18-06-2022 00:55:43 ]	Waiting for connections...
+[ INF 18-06-2022 00:55:44 ]	Accepting connection...
+[ INF 18-06-2022 00:55:44 ]	Successfully created connection thread
+[ INF 18-06-2022 00:55:44 ]	Thread is working
+[ INF 18-06-2022 00:55:59 ]	Receive message from client
+[ INF 18-06-2022 00:55:59 ]	Msg -> -exit
+[ INF 18-06-2022 00:56:04 ]	Client disconnected
+[ INF 18-06-2022 00:57:25 ]	Starting server
+[ INF 18-06-2022 00:57:25 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:57:25 ]	Create server socket
+[ INF 18-06-2022 00:57:25 ]	Port -> 8888
+[ INF 18-06-2022 00:57:25 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:57:25 ]	Bind server socket
+[ INF 18-06-2022 00:57:25 ]	Start listening
+[ INF 18-06-2022 00:57:25 ]	Waiting for connections...
+[ INF 18-06-2022 00:57:26 ]	Accepting connection...
+[ INF 18-06-2022 00:57:26 ]	Successfully created connection thread
+[ INF 18-06-2022 00:57:26 ]	Thread is working
+[ INF 18-06-2022 00:57:29 ]	Receive message from client
+[ INF 18-06-2022 00:57:29 ]	Msg -> test
+[ INF 18-06-2022 00:57:37 ]	Receive message from client
+[ INF 18-06-2022 00:57:37 ]	Msg -> test test test
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg ->     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolo
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> r in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> t, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, se
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> d do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> ris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fug
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> m.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> . Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> lor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proid
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> ent, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> boris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu f
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> ugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> rum.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> ua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pro
+[ INF 18-06-2022 00:57:51 ]	Receive message from client
+[ INF 18-06-2022 00:57:51 ]	Msg -> ident, sunt in culpa qui officia deserunt mollit anim id est laborum.t nulla pariatur. Excepteur sint occaecat cupidatat non pro
+[ INF 18-06-2022 00:58:03 ]	Client disconnected
+[ INF 18-06-2022 00:58:40 ]	Starting server
+[ INF 18-06-2022 00:58:40 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 00:58:40 ]	Create server socket
+[ INF 18-06-2022 00:58:40 ]	Port -> 8888
+[ INF 18-06-2022 00:58:40 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 00:58:40 ]	Bind server socket
+[ INF 18-06-2022 00:58:40 ]	Start listening
+[ INF 18-06-2022 00:58:40 ]	Waiting for connections...
+[ INF 18-06-2022 00:58:41 ]	Accepting connection...
+[ INF 18-06-2022 00:58:41 ]	Successfully created connection thread
+[ INF 18-06-2022 00:58:41 ]	Thread is working
+[ INF 18-06-2022 00:58:44 ]	Receive message from client
+[ INF 18-06-2022 00:58:44 ]	Msg -> test
+[ INF 18-06-2022 00:58:51 ]	Receive message from client
+[ INF 18-06-2022 00:58:51 ]	Msg -> test
+[ INF 18-06-2022 00:58:52 ]	Client disconnected
+[ INF 18-06-2022 01:01:29 ]	Starting server
+[ INF 18-06-2022 01:01:29 ]	Configuration loaded: 
+Logging configuration: 
+	log_file: server.log
+Server configuration: 
+	Protocol: 0
+	Domain: IPv4
+	Type: TCP
+	Port: 8888
+	Max connections: 50000
+	Address: 0.0.0.0
+Application configuration: 
+	Code Name: alpha
+	App Name: Test Server
+	Version: 1.0.0
+
+[ INF 18-06-2022 01:01:29 ]	Create server socket
+[ INF 18-06-2022 01:01:29 ]	Port -> 8888
+[ INF 18-06-2022 01:01:29 ]	IP -> 0.0.0.0
+[ INF 18-06-2022 01:01:29 ]	Bind server socket
+[ INF 18-06-2022 01:01:29 ]	Start listening
+[ INF 18-06-2022 01:01:29 ]	Waiting for connections...
+[ INF 18-06-2022 01:01:30 ]	Accepting connection...
+[ INF 18-06-2022 01:01:30 ]	Successfully created connection thread
+18-06-2022 01:01:30 ]	Thread is working
+[ INF 18-06-2022 01:01:33 ]	Receive message from client
+[ INF 18-06-2022 01:01:33 ]	Msg -> test
+[ INF 18-06-2022 01:01:39 ]	Receive message from client
+[ INF 18-06-2022 01:01:39 ]	Msg -> hello world
+[ INF 18-06-2022 01:01:47 ]	Receive message from client
+[ INF 18-06-2022 01:01:47 ]	Msg -> fdsgdskgd sgnkldfsjgan dshgfgdjh fmd hf d  hfda h fdhf dah fdhfdh
+[ INF 18-06-2022 01:01:49 ]	Client disconnected
