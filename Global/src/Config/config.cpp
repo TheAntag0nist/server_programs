@@ -5,11 +5,10 @@ std::string config_data::get_info(){
     ss << log_config_data.get_info();
     ss << app_config_data.get_info();
 
-#ifdef SERVER_CONFIG
-    ss << srv_config_data.get_info();
-#elif CLIENT_CONFIG
-    ss << client_config_data.get_info();
-#endif
+    if(is_server)
+        ss << srv_config_data.get_info();
+    else
+        ss << client_config_data.get_info();
 
     return ss.str();
 }
@@ -20,11 +19,8 @@ void config_data::parse_config(const json& config){
     // logger configuration
     log_config_data.parse_config(config);
 
-#ifdef SERVER_CONFIG
-    // server configuration
-    srv_config_data.parse_config(config);
-#elif CLIENT_CONFIG
-    // client configuration
-    client_config_data.parse_config(config);
-#endif
+    if(is_server)
+        srv_config_data.parse_config(config);
+    else
+        client_config_data.parse_config(config);
 }

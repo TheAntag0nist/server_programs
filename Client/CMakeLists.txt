@@ -6,8 +6,6 @@ project(
     VERSION 1.0.0
     DESCRIPTION "Client - Network Client"
 )
-# Add compile definitions
-add_compile_definitions(CLIENT_CONFIG)
 # Set include directories
 include_directories(./inc)
 include_directories(../Global/inc)

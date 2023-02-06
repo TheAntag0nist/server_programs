@@ -6,8 +6,6 @@ project(
     VERSION 1.0.0
     DESCRIPTION "Server - Network Server"
 )
-# Add compile definitions
-add_compile_definitions(SERVER_CONFIG)
 # Add compiler options
 add_compile_options(-lpthread)
 # Set include directories

@@ -10,12 +10,10 @@ class config_data : i_config{
 public:
     logger_config log_config_data;
     app_config app_config_data;
+    bool is_server = false;
 
-#ifdef SERVER_CONFIG
     server_config srv_config_data;
-#elif CLIENT_CONFIG
     client_config client_config_data;
-#endif
 
     // TODO: Upgrade reading configuration file to dynamic format
     virtual std::string get_info() override;

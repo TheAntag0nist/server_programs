@@ -1,6 +1,7 @@
+#define SERVER_CONFIG
 #include <Config/config.h>
-#include <json.hpp>
 #include <Log/logger.h>
+#include <json.hpp>
 #include <core.h>
 
 #include <iostream>
@@ -10,8 +11,8 @@ using json = nlohmann::json;
 ////////////////////////////////////////////////////////////////
 //                      Global variables
 ////////////////////////////////////////////////////////////////
-server server_obj;
 config_data server_conf;
+server server_obj;
 ////////////////////////////////////////////////////////////////
 //                      Global functions
 ////////////////////////////////////////////////////////////////
@@ -48,7 +49,8 @@ void read_config(){
     // Initial file settings
     const std::string filename = "config.json";
     std::fstream config_file(filename);
-    
+    server_conf.is_server = true;
+
     if(config_file.is_open()){
         json config = json::parse(config_file);
         logger::info("Reading server configuration\n" + config.dump());
