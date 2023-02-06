@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/antag0nist/Programming/Server/_server_part'
-g++ -std=c++14 -O2 -pthread -Wall -o server_app server.cpp ./server/srv.cpp ../net_helper/net_helper.cpp ../log/logger.cpp
-make: Leaving directory '/home/antag0nist/Programming/Server/_server_part'
- 
